@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>58e2bc08-44dc-4cc5-afc7-dca0f408e12d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chapter16_1.py</StartupFile>
+    <StartupFile>random_walk.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

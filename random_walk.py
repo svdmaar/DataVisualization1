@@ -24,6 +24,7 @@ class RandomWalk():
 
 rw = RandomWalk()
 rw.fill_walk()
+plt.figure(figsize=(20, 10))
 plt.scatter(rw.x_values, rw.y_values, s=15)
 rw2 = RandomWalk()
 rw2.fill_walk()
@@ -33,4 +34,4 @@ rw2.fill_walk()
 plt.scatter(rw2.x_values, rw2.y_values, s=15, c="green")
 
 plt.show()
-#plt.figure(figsize=(10, 10))
+
