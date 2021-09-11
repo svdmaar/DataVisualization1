@@ -31,4 +31,6 @@ plt.scatter(rw2.x_values, rw2.y_values, s=15, c="red")
 rw2 = RandomWalk()
 rw2.fill_walk()
 plt.scatter(rw2.x_values, rw2.y_values, s=15, c="green")
+
 plt.show()
+#plt.figure(figsize=(10, 10))
