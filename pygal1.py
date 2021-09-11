@@ -9,7 +9,7 @@ class Die():
         return randint(1, self.num_sides)
 
 die = Die()
-die2 = Die()
+die2 = Die(10)
 
 results = []
 for roll_num in range(50 * 1000):
@@ -26,7 +26,7 @@ for value in range(2, max_result+1):
 hist = pygal.Bar()
 
 hist.title = "Result of rolling two D6 1000 times."
-hist.x_labels = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+hist.x_labels = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
