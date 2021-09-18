@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>58e2bc08-44dc-4cc5-afc7-dca0f408e12d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>popdata.py</StartupFile>
+    <StartupFile>country_code.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="chapter16_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="country_code.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="datetime1.py">
