@@ -24,6 +24,9 @@
     <Compile Include="chapter16_1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="datetime1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pygal1.py">
       <SubType>Code</SubType>
     </Compile>
