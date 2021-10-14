@@ -30,6 +30,9 @@
     <Compile Include="datetime1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dicts1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="hackernews1.py">
       <SubType>Code</SubType>
     </Compile>
